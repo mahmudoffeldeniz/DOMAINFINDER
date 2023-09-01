@@ -1,0 +1,34 @@
+.custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid yellow;
+
+
+}
+
+.text-box {
+
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s, color 0.3s;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.text-box.active {
+    color:  #abb896;
+    border-color: #abb896;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 360px){
+    .custom-container {
+       overflow: scroll;
+        width: 100% !important;
+        margin:auto;
+    }
+    .text-box{
+        width: 100%;
+    }
+}

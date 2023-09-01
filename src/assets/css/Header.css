@@ -1,0 +1,33 @@
+.header-des{
+justify-content: end;
+}
+
+.HEADER{
+    background: #52AB84 !important;
+    position: relative;
+    color: white!important;
+
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .nav-mobile{
+    display: none}
+    .d-menu{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .nav-mobile{
+    display: none !important;}
+
+
+}
+@media screen and (max-width: 992px) {
+    .d-menu{
+        display: none;
+    }
+}

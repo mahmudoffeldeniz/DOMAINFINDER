@@ -1,0 +1,51 @@
+.input-search{
+    position: relative;
+    text-align: start;
+    height: 50px;
+
+}
+.input-row{
+    width: 70% !important;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 992px),(max-width: 450px),(max-width: 350px)
+{
+    .input-row{
+        width: 100% !important;
+    }
+}
+
+
+
+.btn-input{
+    position: absolute;
+    margin-top: 2px;
+    right: 15px;
+    z-index: 20000;
+}
+.btn-input img{
+    width: 25px;
+    margin-top: 50%;
+    height: 25px;
+}
+.btn-home{
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+.Aboutimg{
+    height: 220px;
+    width: 100%;
+}
+.cnpIcon{
+    width: 15px;
+    height: 15px;
+}
+

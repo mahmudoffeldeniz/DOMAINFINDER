@@ -1,0 +1,18 @@
+
+.Language{
+    width: 100px !important;
+    position: absolute;
+    right: 60px;
+}
+.span{
+    position: absolute !important;
+    right: 180px !important;
+    color: blue;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
